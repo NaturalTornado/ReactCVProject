@@ -1,0 +1,8 @@
+[build]
+  publish = "build" # This should match your build output folder, usually 'build' for React, 'dist' for Vue, etc.
+  command = "npm run build" # Command to build the project
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
